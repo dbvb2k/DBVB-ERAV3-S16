@@ -12,8 +12,8 @@ This page contains the results and visualizations from training different U-Net 
 - Dataset split: 80% training, 20% validation
 
 ## Training logs
-![Training Log-1](results/predictions_config_1.png)
-![Training Log-2](results/predictions_config_1.png)
+![Training Log-1](results/train_scr1.png)
+![Training Log-2](results/train_scr2.png)
 
 ## Model Performance Comparison
 
