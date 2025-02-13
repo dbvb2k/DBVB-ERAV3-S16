@@ -32,39 +32,53 @@ This project implements a U-Net architecture for semantic segmentation of pet im
 - numpy
 - tqdm
 
+Install dependencies:
+```bash
+pip install torch torchvision pillow matplotlib numpy tqdm
+```
+
 ## Dataset
 
 The project uses the Oxford-IIIT Pet Dataset, which should be organized as follows:
-data/  
-├──oxford_pet/  
-├────images/  
-├──────image1.jpg  
-├──────image2.jpg  
-...  
-├────annotations/  
-├──────trimaps/  
-├───────image1.png  
-├───────image2.png  
+```
+data/
+└── oxford_pet/
+    ├── images/
+    │   ├── image1.jpg
+    │   ├── image2.jpg
+    │   └── ...
+    └── annotations/
+        └── trimaps/
+            ├── image1.png
+            ├── image2.png
+            └── ...
 ```
 
 Download the dataset from [Oxford-IIIT Pet Dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/).
 
-
 ## Project Structure
-README.md
-├── UNet_Model.py       # U-Net model architecture  
-├── training.py         # Main training script  
-├── results/            # Output directory for visualizations  
-└── data/               # Dataset directory  
+```
+.
+├── README.md
+├── UNet_Model.py     # U-Net model architecture
+├── dataset.py        # Dataset handling
+├── training.py       # Main training script
+├── visualization.py  # Visualization utilities
+├── results/         # Output directory for visualizations
+└── data/           # Dataset directory
+```
 
-
-## Usage & Basic training:
+## Usage
 
 ### Without augmentation (default)
+```bash
 python training.py --augment=False
+```
 
 ### With augmentation 
+```bash
 python training.py --augment=True
+```
 
 ## Model Configurations
 
@@ -114,7 +128,7 @@ Feel free to submit issues and enhancement requests!
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
@@ -123,4 +137,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contact
 
-For questions or feedback, please open an issue in the repository.
+For questions or feedback, please [open an issue](../../issues) in the repository.

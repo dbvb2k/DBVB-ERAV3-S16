@@ -12,7 +12,9 @@ This page contains the results and visualizations from training different U-Net 
 - Dataset split: 80% training, 20% validation
 
 ## Training logs
+### Training Log-1
 ![Training Log-1](results/train_scr1.png)
+### Training Log-2
 ![Training Log-2](results/train_scr2.png)
 
 ## Model Performance Comparison
@@ -33,14 +35,6 @@ This page contains the results and visualizations from training different U-Net 
 ### Configuration 4: StrideConv + Upsample + Dice
 ![Config 4 Results](results/predictions_config_4.png)
 
-## Performance Metrics
-
-| Configuration | Training Loss | Validation Loss | Training Accuracy | Validation Accuracy |
-|--------------|---------------|-----------------|-------------------|-------------------|
-| Config 1     | TBD           | TBD             | TBD               | TBD               |
-| Config 2     | TBD           | TBD             | TBD               | TBD               |
-| Config 3     | TBD           | TBD             | TBD               | TBD               |
-| Config 4     | TBD           | TBD             | TBD               | TBD               |
 
 
 
