@@ -25,15 +25,12 @@ This project implements a U-Net architecture for semantic segmentation of pet im
 ## Requirements
 
 - Python 3.7+
-- PyTorch 1.7+
+- PyTorch 2.5+
 - torchvision
 - PIL
 - matplotlib
 - numpy
 - tqdm
-
-Install dependencies:
-```
 
 ## Dataset
 
@@ -54,24 +51,23 @@ Download the dataset from [Oxford-IIIT Pet Dataset](https://www.robots.ox.ac.uk/
 
 ## Project Structure
 README.md
-├── UNet_Model.py       # U-Net model architecture
-├── training.py         # Main training script
-├── results/            # Output directory for visualizations
-└── data/               # Dataset directory
-```
+├── UNet_Model.py       # U-Net model architecture  
+├── training.py         # Main training script  
+├── results/            # Output directory for visualizations  
+└── data/               # Dataset directory  
+```  
 
 ## Usage
 
 1. Basic training:
-```bash
 
 ### Without augmentation (default)
-python UNet_5.py --augment=False
+python training.py --augment=False
 
 ### With augmentation 
-python UNet_5.py --augment=True
+python training.py --augment=True
 
-```
+
 
 ## Model Configurations
 
