@@ -35,19 +35,20 @@ This project implements a U-Net architecture for semantic segmentation of pet im
 ## Dataset
 
 The project uses the Oxford-IIIT Pet Dataset, which should be organized as follows:
-data/
-├──oxford_pet/
-├────images/
-├──────image1.jpg
-├──────image2.jpg
-...
-├────annotations/
-├──────trimaps/
-├───────image1.png
-├───────image2.png
+data/  
+├──oxford_pet/  
+├────images/  
+├──────image1.jpg  
+├──────image2.jpg  
+...  
+├────annotations/  
+├──────trimaps/  
+├───────image1.png  
+├───────image2.png  
 ```
 
 Download the dataset from [Oxford-IIIT Pet Dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/).
+```
 
 ## Project Structure
 README.md
@@ -57,9 +58,7 @@ README.md
 └── data/               # Dataset directory  
 ```  
 
-## Usage
-
-1. Basic training:
+## Usage & Basic training:
 
 ### Without augmentation (default)
 python training.py --augment=False
