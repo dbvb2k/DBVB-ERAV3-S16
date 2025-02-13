@@ -48,7 +48,7 @@ data/
 ```
 
 Download the dataset from [Oxford-IIIT Pet Dataset](https://www.robots.ox.ac.uk/~vgg/data/pets/).
-```
+
 
 ## Project Structure
 README.md
@@ -56,7 +56,7 @@ README.md
 ├── training.py         # Main training script  
 ├── results/            # Output directory for visualizations  
 └── data/               # Dataset directory  
-```  
+
 
 ## Usage & Basic training:
 
@@ -65,8 +65,6 @@ python training.py --augment=False
 
 ### With augmentation 
 python training.py --augment=True
-
-
 
 ## Model Configurations
 
