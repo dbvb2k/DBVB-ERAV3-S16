@@ -20,12 +20,12 @@ This page contains the results and visualizations from training different U-Net 
 
 ## Model Performance Comparison
 
-<img src="results/all_configs_comparison.png" width="800"/>
+<img src="results/all_configs_comparison.png" width="1000"/>
 
 ## Individual Configuration Results
 
 ### Configuration 1: MaxPool + TransConv + BCE
-<img src="results/predictions_config_1.png" width="800"/>
+<img src="results/predictions_config_1.png" width="600"/>
 
 ### Configuration 2: MaxPool + TransConv + Dice
 <img src="results/predictions_config_2.png" width="800"/>
