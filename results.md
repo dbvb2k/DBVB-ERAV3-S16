@@ -21,7 +21,7 @@ This page contains the results and visualizations from training different U-Net 
 ## Individual Configuration Results
 
 ### Configuration 1: MaxPool + TransConv + BCE
-<img src="results/predictions_config_1.png" width="600"/>
+<img src="results/predictions_config_1.png" width="500"/>
 
 ### Configuration 2: MaxPool + TransConv + Dice
 <img src="results/predictions_config_2.png" width="600"/>
