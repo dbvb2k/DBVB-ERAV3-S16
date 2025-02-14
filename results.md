@@ -24,13 +24,13 @@ This page contains the results and visualizations from training different U-Net 
 <img src="results/predictions_config_1.png" width="500"/>
 
 ### Configuration 2: MaxPool + TransConv + Dice
-<img src="results/predictions_config_2.png" width="600"/>
+<img src="results/predictions_config_2.png" width="500"/>
 
 ### Configuration 3: StrideConv + TransConv + BCE
-<img src="results/predictions_config_3.png" width="600"/>
+<img src="results/predictions_config_3.png" width="500"/>
 
 ### Configuration 4: StrideConv + Upsample + Dice
-<img src="results/predictions_config_4.png" width="600"/>
+<img src="results/predictions_config_4.png" width="500"/>
 
 ## Model Performance Comparison
 
