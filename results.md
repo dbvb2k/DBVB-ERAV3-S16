@@ -18,6 +18,9 @@ This page contains the results and visualizations from training different U-Net 
 ### Training Log-2
 <img src="results/train_scr2.png" width="1000"/>
 
+## Model Performance Comparison
+<img src="results/all_configs_comparison.png" width="1000"/>
+
 ## Individual Configuration Results
 
 ### Configuration 1: MaxPool + TransConv + BCE
@@ -32,9 +35,6 @@ This page contains the results and visualizations from training different U-Net 
 ### Configuration 4: StrideConv + Upsample + Dice
 <img src="results/predictions_config_4.png" width="500"/>
 
-## Model Performance Comparison
-
-<img src="results/all_configs_comparison.png" width="1000"/>
 
 
 

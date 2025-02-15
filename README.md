@@ -111,7 +111,15 @@ The training process generates several visualizations:
 - Combined comparison visualization
 - Training and validation metrics
 
-Results are saved in the `results/` directory. View detailed results and visualizations [here](results.md).
+<p align="center">
+  <a href="results.md">
+    <img src="results/all_configs_comparison.png" width="400" alt="Model Configurations Comparison">
+    <br>
+    <em>Click to view detailed results and visualizations</em>
+  </a>
+</p>
+
+Results are saved in the `results/` directory. For detailed analysis and more visualizations, see our [detailed results page](results.md).
 
 ## Model Architecture
 
